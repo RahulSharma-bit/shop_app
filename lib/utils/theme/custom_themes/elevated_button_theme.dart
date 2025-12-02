@@ -34,7 +34,7 @@ class RElevatedButtonTheme {
       side: const BorderSide(color: Colors.blue),
       padding: const EdgeInsets.symmetric(vertical: 18),
       textStyle: const TextStyle(
-        fontSize: 16,
+        fontSize: 14,
         color: Colors.white,
         fontWeight: FontWeight.w600,
       ),

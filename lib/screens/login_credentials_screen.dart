@@ -71,14 +71,14 @@ class LoginCredentialsScreen extends StatelessWidget {
                       ),
                       child: Column(
                         children: [
-                          SizedBox(height: 10),
+                          SizedBox(height: 30),
 
                           // TEXT FIELDS CARD
                           Container(
                             padding: EdgeInsets.all(20),
                             decoration: BoxDecoration(
                               color: Colors.white,
-                              borderRadius: BorderRadius.circular(10),
+                              borderRadius: BorderRadius.circular(30),
                               boxShadow: [
                                 BoxShadow(
                                   color: Color.fromRGBO(255, 95, 27, .3),
@@ -150,28 +150,13 @@ class LoginCredentialsScreen extends StatelessWidget {
                     Positioned(
                       left: 20,
                       right: 20,
-                      bottom: 20,
+                      bottom: 10,
                       child: SizedBox(
-                        height: 50,
                         child: ElevatedButton(
                           onPressed: () {
                             _login(context);
                           },
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.blue,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(30),
-                            ),
-                            elevation: 5,
-                          ),
-                          child: Text(
-                            "Login",
-                            style: TextStyle(
-                              fontSize: 18,
-                              color: Colors.white,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
+                          child: Center(child: Text("Login")),
                         ),
                       ),
                     ),
